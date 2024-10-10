@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --font-family: "Futura Bk BT", sans-serif;
+    --second-family: "Futura LtCn BT", sans-serif;
+    --third-family: "Inter", sans-serif;
+    --font3: "Futura XBlkCnIt BT", sans-serif;
+    --font4: "Futura Md BT", sans-serif;
+    --font5: "Futura Hv BT", sans-serif;
+    --font6: "Futura LT", sans-serif;
+    --font7: "Futura-Black", sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    margin: 0 calc((100vw - 1440px)/2);
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 114px;
+
+    &__left {
+        display: flex;
+        gap: 32px;
+        margin-left: 40px;
+    }
+
+    &__logo {
+        margin-right: 100px;
+    }
+
+    &__right {
+        display: flex;
+        gap: 40px;
+        margin-right: 40px;
+    }
+
+    &__link {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+
+.hero {
+    height: 1005px;
+    background-image: url(/img/hero.png);
+    background-repeat: no-repeat;
+
+    &__text {
+        width: 492px;
+        padding: 200px 0 0 836px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 231px;
+    }
+
+    &__title {
+        font-family: var(--font4);
+        font-style: italic;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0.16em;
+        color: #fff;
+    }
+
+    &__price {
+        display: flex;
+    }
+
+    &__cost {
+        font-family: var(--font5);
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 100%;
+        color: #fff;
+        margin-right: 164px;
+    }
+
+    &__size {
+        display: flex;
+        gap: 19px;
+    }
+
+    &__zleft {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        margin-top: 18px;
+    }
+
+    &__zright {
+        display: flex;
+        margin-right: 32px;
+    }
+
+    &__numb {
+        font-family: var(--font5);
+        font-weight: 900;
+        font-size: 36px;
+        color: #fff;
+    }
+
+    &__button {
+        border: 1px solid #fff;
+        border-radius: 36px;
+        width: 131px;
+        height: 36px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 0%;
+        color: #fff;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+
+.arrow__down {
+    width: 14px;
+    height: 7px;
+    margin-top: 20px;
+}
+
+.corz {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.under {
+    display: flex;
+    align-items: center;
+
+    &__left {
+        margin-right: 80px;
+        margin-left: 65px;
+        display: flex;
+        gap: 44px;
+        margin-top: -60px;
+    }
+
+    &__arrowl {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__prev {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    &__arrowr {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__cards {
+        width: 1060px;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 40px;
+    }
+
+    &__card {
+        position: relative;
+        border: 2px solid #fff;
+        width: 320px;
+        height: 195px;
+    }
+
+    &__heading {
+        margin-top: 124px;
+        margin-left: 32px;
+    }
+}
+
+.sneakers {
+    position: absolute;
+    left: 20px;
+    top: -50px;
+}
+
+.heading {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 0%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.left__arrow {
+    rotate: 180deg;
+}
+
+.sneakers2 {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+}
+
+.sneakers3 {
+    position: absolute;
+    left: 20px;
+    top: -35px;
+}
+
+.labels {
+    position: absolute;
+    top: 930px;
+}
+
+.hero2 {
+
+    &__text {
+        width: 1064;
+        height: 639px;
+        margin-top: 240px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    &__subtitle {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 300%;
+        text-align: center;
+        color: #fff;
+        line-height: 50px;
+        margin-bottom: 80px;
+    }
+}
+
+.button {
+    margin-left: 680px;
+
+}
